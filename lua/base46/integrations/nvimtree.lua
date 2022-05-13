@@ -5,6 +5,7 @@ return function(colors)
       NvimTreeGitDirty = { fg = colors.red },
       NvimTreeGitDeleted = { fg = colors.red },
 
+      NvimTreeRootFolder = { fg = colors.base0E },
       NvimTreeEmptyFolderName = { fg = colors.folder_bg },
       NvimTreeEndOfBuffer = { fg = colors.darker_black },
       NvimTreeFolderIcon = { fg = colors.folder_bg },
