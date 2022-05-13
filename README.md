@@ -25,9 +25,22 @@
 - **Or Just Use Any Plugin Manager You Like**
 - **Or Just Use Any Method You Like**
 
+### Set Theme
+
+- The first parameter for `load_theme` determines the amount of colors used of the theme ("base16" for 16 colors | "base46" for 46 colors).
+- The second parameter for `load_theme` is the theme name. You can find out what themes are available by going into `./lua/base46/hl_themes/`
+ 
+```lua
+local base46 = require("base46")
+local base_num = "base46"
+local theme_name = "tomorrownight"
+
+base46.load_theme(base_num, theme_name)
+```
+
 ## Contribute Themes
 
-- Themes are placed in the "./lua/base46/hl_themes/" directory.
+- Themes are placed in the `./lua/base46/hl_themes/` directory.
 - To create a new theme, create a lua file with the name of the theme you want it to be (the file name should be all lowercase for the sake of consistency).
 - All colors in the theme must be in a `#RRGGBB` hex  code format.
 - **Example**: *tomorrownight.lua*
