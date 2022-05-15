@@ -10,7 +10,7 @@ return function(colors)
       EndOfBuffer = { fg = colors.black },
 
       -- floating windows
-      FloatBorder = { fg = colors.blue },
+      FloatBorder = { fg = colors.grey, bg = colors.darker_black },
       NormalFloat = { bg = colors.darker_black },
 
       -- Pmenu i.e completion menu
@@ -45,5 +45,17 @@ return function(colors)
       WhichKeyDesc = { fg = colors.red },
       WhichKeyGroup = { fg = colors.green },
       WhichKeyValue = { fg = colors.green },
+
+      -- packer
+      packerPackageName = { fg = colors.red },
+
+      -- vim-matchup
+      MatchWord = {
+         fg = colors.black,
+         bg = colors.white,
+      },
+      MatchWordCur = {},
+      MatchParen = { link = "MatchWord" },
+      MatchParenCur = { link = "MatchWordCur" },
    }
 end
