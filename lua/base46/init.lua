@@ -11,7 +11,7 @@ function M.get_colors(base, theme_name)
    local present, theme = pcall(require, path)
 
    if not present then
-      error("`" .. theme_name .. "`" .. " cannot be found.")
+      error("`" .. theme_name .. "`" .. " is not a valid theme.")
       return
    end
 
