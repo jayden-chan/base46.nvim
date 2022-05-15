@@ -10,6 +10,7 @@ return function(colors)
       MatchParen = { bg = colors.base03 },
       ModeMsg = { fg = colors.base0B },
       MoreMsg = { fg = colors.base0B },
+      NonText = { fg = colors.base03 },
       Question = { fg = colors.base0D },
       SpecialKey = { fg = colors.base03 },
       TooLong = { fg = colors.base08 },
@@ -74,7 +75,6 @@ return function(colors)
          bg = colors.base05,
       },
 
-      NonText = { fg = colors.base03 },
       SignColumn = {
          fg = colors.base03,
          sp = "none",

@@ -1,6 +1,8 @@
 return function(colors)
    return {
-      CmpBorder = { fg = colors.grey },
+      CmpCompNormal = { bg = colors.black },
+      CmpCompBorder = { fg = colors.grey },
+      CmpDocNormal = { bg = colors.black },
       CmpDocBorder = { fg = colors.grey },
       CmpItemAbbr = { fg = colors.white },
       CmpItemAbbrMatch = { fg = colors.blue, bold = true },

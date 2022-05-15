@@ -1,7 +1,11 @@
 return function(colors)
    return {
       TelescopeNormal = { bg = colors.darker_black },
-      TelescopeSelection = { bg = colors.black2 },
+
+      TelescopeSelection = {
+         fg = colors.white,
+         bg = colors.one_bg,
+      },
 
       TelescopeBorder = {
          fg = colors.darker_black,
