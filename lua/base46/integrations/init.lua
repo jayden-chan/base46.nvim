@@ -11,4 +11,5 @@ return {
    "syntax",
    "telescope",
    "treesitter",
+   "feline",
 }
