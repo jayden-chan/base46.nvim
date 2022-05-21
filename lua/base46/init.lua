@@ -11,7 +11,7 @@ function M.get_colors(base, theme_name)
    local present, theme = pcall(require, path)
 
    if not present then
-      error("`" .. theme_name .. "`" .. " is not a valid theme.")
+      error("`" .. theme_name .. "`" .. " is not an available theme", 2)
       return
    end
 
@@ -41,20 +41,11 @@ function M.load_theme(base, theme_name)
       return
    end
 
+   -- term hls
    require("base46.base46_term").set_hls(colors)
+
+   -- get hls
    local hls = require("base46.base46_hls").get_hls(colors)
-
-   -- clear bufferline hls
-   local bufferline_raw = vim.split(vim.api.nvim_exec("filter BufferLine hi", true), "\n")
-   local bufferline_groups = {}
-
-   for _, raw_hi in ipairs(bufferline_raw) do
-      table.insert(bufferline_groups, string.match(raw_hi, "BufferLine%a+"))
-   end
-
-   for _, highlight in ipairs(bufferline_groups) do
-      vim.cmd("hi clear " .. highlight)
-   end
 
    -- actually highlight stuff
    for hl, col in pairs(hls) do
