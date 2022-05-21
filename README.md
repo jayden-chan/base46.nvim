@@ -27,15 +27,24 @@
 
 ### Set Theme
 
-- The first parameter for `load_theme` determines the amount of colors used of the theme ("base16" for 16 colors | "base46" for 46 colors).
-- The second parameter for `load_theme` is the theme name. You can find out what themes are available by going into `./lua/base46/hl_themes/`
+- `base`: (type string) The amount of colors you want in your theme ("base16" for 16 colors | "base46" for 46 colors).
+- `theme`: (type string) The name of the theme you desire. You can find out what themes are available by going into `./lua/base46/hl_themes/`.
+- `transparency`: (type bool) Do you want transparency or not?
  
 ```lua
-local base46 = require("base46")
-local base_num = "base46"
-local theme_name = "tomorrownight"
+-- exit if it can't be found
+local present, base46 = pcall(require, "base46")
+if not present then
+   return
+end
 
-base46.load_theme(base_num, theme_name)
+local theme_opts = {
+   base = "base46",
+   theme = "tomorrownight",
+   transparency = false,
+}
+
+base46.load_theme(theme_opts)
 ```
 
 ## Contribute Themes
