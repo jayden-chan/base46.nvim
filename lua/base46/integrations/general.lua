@@ -7,7 +7,7 @@ return function(colors)
       LineNr = { fg = colors.grey },
 
       -- those ugly ~'s
-      EndOfBuffer = { fg = colors.black },
+      EndOfBuffer = { fg = colors.base00 },
 
       -- floating windows
       FloatBorder = { fg = colors.grey, bg = colors.darker_black },

@@ -35,8 +35,16 @@ function M.get_dir_modules(dir_path)
    return modules
 end
 
-function M.load_theme(base, theme_name)
-   local colors = M.get_colors(base, theme_name)
+function M.load_theme(user_opts)
+   local opts = {
+      base = "base46",
+      theme = "",
+      transparency = false,
+   }
+
+   opts = M.merge_tbl(opts, user_opts)
+
+   local colors = M.get_colors(opts.base, opts.theme)
    if not colors then
       return
    end
@@ -45,7 +53,7 @@ function M.load_theme(base, theme_name)
    require("base46.base46_term").set_hls(colors)
 
    -- get hls
-   local hls = require("base46.base46_hls").get_hls(colors)
+   local hls = require("base46.base46_hls").get_hls(colors, opts.transparency)
 
    -- actually highlight stuff
    for hl, col in pairs(hls) do
