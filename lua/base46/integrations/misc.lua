@@ -110,6 +110,10 @@ return function(colors)
          sp = "none",
       },
 
+      StatusLineNC = {
+         fg = colors.black2,
+      },
+
       -- spelling
       SpellBad = {
          undercurl = true,
