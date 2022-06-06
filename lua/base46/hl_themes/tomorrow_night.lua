@@ -1,11 +1,11 @@
 local M = {}
 
-M.base30 = {
+M.base_30 = {
    white = "#C5C8C2",
    darker_black = "#191b1d",
    black = "#1d1f21", -- nvim bg
    black2 = "#232527",
-   one_bg = "#363a41",
+   one_bg = "#2d2f31",
    one_bg2 = "#353b45",
    one_bg3 = "#30343c",
    grey = "#434547",
@@ -15,7 +15,7 @@ M.base30 = {
    red = "#cc6666",
    baby_pink = "#FF6E79",
    pink = "#ff9ca3",
-   line = "#27292b", -- for lines like vertsplit
+   line = "#313335", -- for lines like vertsplit
    green = "#a4b595",
    vibrant_green = "#a3b991",
    nord_blue = "#728da8",
@@ -29,12 +29,11 @@ M.base30 = {
    cyan = "#70c0b1",
    statusline_bg = "#212326",
    lightbg = "#373B41",
-   lightbg2 = "#2D3035",
    pmenu_bg = "#a4b595",
    folder_bg = "#6f8dab",
 }
 
-M.base16 = {
+M.base_16 = {
    base0A = "#f0c674",
    base04 = "#b4b7b4",
    base07 = "#ffffff",
@@ -51,6 +50,15 @@ M.base16 = {
    base00 = "#1d1f21",
    base09 = "#de935f",
    base06 = "#e0e0e0",
+}
+
+M.type = "dark"
+
+M.polish_hl = {
+   PmenuSel = {
+      fg = M.base_30.black,
+      bg = M.base_30.red,
+   },
 }
 
 return M

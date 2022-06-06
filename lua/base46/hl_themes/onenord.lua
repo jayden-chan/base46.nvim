@@ -1,6 +1,6 @@
 local M = {}
 
-M.base30 = {
+M.base_30 = {
    white = "#D8DEE9",
    darker_black = "#252b37",
    black = "#2a303c", --  nvim bg
@@ -15,7 +15,7 @@ M.base30 = {
    red = "#d57780",
    baby_pink = "#de878f",
    pink = "#da838b",
-   line = "#3a404c", -- for lines like vertsplit
+   line = "#414753", -- for lines like vertsplit
    green = "#A3BE8C",
    vibrant_green = "#afca98",
    blue = "#7797b7",
@@ -29,28 +29,27 @@ M.base30 = {
    cyan = "#9aafe6",
    statusline_bg = "#333945",
    lightbg = "#3f4551",
-   lightbg2 = "#393f4b",
    pmenu_bg = "#A3BE8C",
    folder_bg = "#7797b7",
 }
 
-M.base16 = {
-   base0A = "#EBCB8B",
-   base04 = "#566074",
-   base07 = "#ced4df",
-   base05 = "#bfc5d0",
-   base0E = "#B48EAD",
-   base0D = "#81A1C1",
-   base0C = "#97b7d7",
-   base0B = "#A3BE8C",
-   base02 = "#434C5E",
-   base0F = "#d57780",
-   base03 = "#4C566A",
-   base08 = "#d57780",
-   base01 = "#3B4252",
+M.base_16 = {
    base00 = "#2a303c",
-   base09 = "#e39a83",
+   base01 = "#3B4252",
+   base02 = "#434C5E",
+   base03 = "#4C566A",
+   base04 = "#566074",
+   base05 = "#bfc5d0",
    base06 = "#c7cdd8",
+   base07 = "#ced4df",
+   base08 = "#d57780",
+   base09 = "#e39a83",
+   base0A = "#EBCB8B",
+   base0B = "#A3BE8C",
+   base0C = "#97b7d7",
+   base0D = "#81A1C1",
+   base0E = "#B48EAD",
+   base0F = "#d57780",
 }
 
 return M

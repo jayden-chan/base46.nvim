@@ -1,6 +1,6 @@
 local M = {}
 
-M.base30 = {
+M.base_30 = {
    white = "#ebdbb2",
    darker_black = "#232323",
    black = "#282828", --  nvim bg
@@ -15,7 +15,7 @@ M.base30 = {
    red = "#fb4934",
    baby_pink = "#cc241d",
    pink = "#ff75a0",
-   line = "#2c2f30", -- for lines like vertsplit
+   line = "#36393a", -- for lines like vertsplit
    green = "#b8bb26",
    vibrant_green = "#a9b665",
    nord_blue = "#83a598",
@@ -28,13 +28,12 @@ M.base30 = {
    orange = "#e78a4e",
    cyan = "#82b3a8",
    statusline_bg = "#2c2c2c",
-   lightbg = "#353535",
-   lightbg2 = "#303030",
+   lightbg = "#3d3d3d",
    pmenu_bg = "#83a598",
-   folder_bg = "#83a598",
+   folder_bg = "#749689",
 }
 
-M.base16 = {
+M.base_16 = {
    base00 = "#282828",
    base01 = "#3c3836",
    base02 = "#504945",

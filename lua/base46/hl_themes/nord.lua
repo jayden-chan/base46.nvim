@@ -1,6 +1,6 @@
 local M = {}
 
-M.base30 = {
+M.base_30 = {
    white = "#abb2bf",
    darker_black = "#2a303c",
    black = "#2E3440", --  nvim bg
@@ -15,26 +15,25 @@ M.base30 = {
    red = "#BF616A",
    baby_pink = "#de878f",
    pink = "#d57780",
-   line = "#3a404c", -- for lines like vertsplit
+   line = "#414753", -- for lines like vertsplit
    green = "#A3BE8C",
    vibrant_green = "#afca98",
    blue = "#7797b7",
    nord_blue = "#81A1C1",
    yellow = "#EBCB8B",
    sun = "#e1c181",
-   purple = "#aab1be",
-   dark_purple = "#B48EAD",
+   purple = "#B48EAD",
+   dark_purple = "#a983a2",
    teal = "#6484a4",
    orange = "#e39a83",
    cyan = "#9aafe6",
    statusline_bg = "#333945",
    lightbg = "#3f4551",
-   lightbg2 = "#393f4b",
    pmenu_bg = "#A3BE8C",
    folder_bg = "#7797b7",
 }
 
-M.base16 = {
+M.base_16 = {
    base00 = "#2E3440",
    base01 = "#3B4252",
    base02 = "#434C5E",
@@ -51,6 +50,16 @@ M.base16 = {
    base0D = "#81A1C1",
    base0E = "#81A1C1",
    base0F = "#B48EAD",
+}
+
+M.polish_hl = {
+   TSPunctBracket = {
+      fg = M.base_30.white,
+   },
+
+   TSPunctDelimiter = {
+      fg = M.base_30.white,
+   },
 }
 
 return M

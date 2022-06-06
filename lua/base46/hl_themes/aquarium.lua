@@ -1,6 +1,6 @@
 local M = {}
 
-M.base30 = {
+M.base_30 = {
    white = "#ced4df",
    darker_black = "#1a1a24",
    black = "#20202A", --  nvim bg
@@ -29,20 +29,19 @@ M.base30 = {
    cyan = "#b8dceb",
    statusline_bg = "#262630",
    lightbg = "#2e2e38",
-   lightbg2 = "#2a2a34",
    pmenu_bg = "#ebb9b9",
    folder_bg = "#b8dceb",
 }
 
-M.base16 = {
+M.base_16 = {
    base00 = "#20202A",
    base01 = "#2c2e3e",
    base02 = "#3D4059",
    base03 = "#313449",
    base04 = "#63718b",
-   base05 = "#ced4df",
-   base06 = "#414560",
-   base07 = "#63718b",
+   base05 = "#bac0cb",
+   base06 = "#c5cbd6",
+   base07 = "#ced4df",
    base08 = "#ebb9b9",
    base09 = "#e8cca7",
    base0A = "#e6dfb8",

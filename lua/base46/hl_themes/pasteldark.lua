@@ -1,6 +1,6 @@
 local M = {}
 
-M.base30 = {
+M.base_30 = {
    white = "#b5bcc9",
    darker_black = "#10171e",
    black = "#131a21", --  nvim bg
@@ -34,7 +34,7 @@ M.base30 = {
    folder_bg = "#99aee5",
 }
 
-M.base16 = {
+M.base_16 = {
    base0A = "#f5d595",
    base04 = "#4f565d",
    base07 = "#b5bcc9",

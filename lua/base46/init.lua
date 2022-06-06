@@ -16,11 +16,11 @@ function M.get_colors(base, theme_name)
    end
 
    if base == "base46" then
-      local base46 = M.merge_tbl(theme.base16, theme.base30)
+      local base46 = M.merge_tbl(theme.base_16, theme.base_30)
       return base46
    end
 
-   return theme.base16
+   return theme.base_16
 end
 
 function M.get_dir_modules(dir_path)

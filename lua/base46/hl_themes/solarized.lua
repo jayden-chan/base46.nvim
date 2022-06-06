@@ -1,6 +1,6 @@
 local M = {}
 
-M.base30 = {
+M.base_30 = {
    white = "#839496",
    darker_black = "#002530",
    black = "#002b36",
@@ -34,7 +34,7 @@ M.base30 = {
    folder_bg = "#61afef",
 }
 
-M.base16 = {
+M.base_16 = {
    base00 = "#002b36",
    base01 = "#073642",
    base02 = "#586e75",

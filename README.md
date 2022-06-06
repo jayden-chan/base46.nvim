@@ -58,7 +58,7 @@ base46.load_theme(theme_opts)
 ```lua
 local M = {}
 
-M.base30 = {
+M.base_30 = {
    white = "#C5C8C2",
    darker_black = "#191b1d",
    black = "#1d1f21",
@@ -92,7 +92,7 @@ M.base30 = {
    folder_bg = "#6f8dab",
 }
 
-M.base16 = {
+M.base_16 = {
    base0A = "#f0c674",
    base04 = "#b4b7b4",
    base07 = "#ffffff",
