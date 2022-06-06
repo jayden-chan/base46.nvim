@@ -51,8 +51,8 @@ return function(colors)
 
       -- vim-matchup
       MatchWord = {
-         fg = colors.black,
-         bg = colors.white,
+         fg = colors.white,
+         bg = colors.base03,
       },
       MatchWordCur = {},
       MatchParen = { link = "MatchWord" },
