@@ -7,8 +7,9 @@
 
 **Base46 is simply a lua library for setting themes in [Neovim](https://github.com/neovim/neovim)**
 
-- This plugin is a complete re-write of [Norcalli's](https://github.com/norcalli) [base16](https://github.com/norcalli/nvim-base16.lua) plugin.
-- It was originally supposed to only be used for [NvChad](https://github.com/NvChad) but I decided that it should be easy accessible to any [Neovim](https://github.com/neovim/neovim) configuration. **The Power of Open Source and Free Software** (I don't really know the details but I heard projects that have these factors are better). However, this plugin does not have all the features the [original](https://github.com/NvChad/base46) one has.
+- Forked from https://github.com/zahimeen/base46.nvim
+- Which was forked from https://github.com/NvChad
+- Which was forked from https://github.com/norcalli/nvim-base16.lua
 
 ## Usage
 
