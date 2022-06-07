@@ -8,7 +8,7 @@ return function(colors)
       },
 
       TelescopeBorder = {
-         fg = colors.darker_black,
+         fg = colors.black2,
          bg = colors.darker_black,
       },
 
@@ -39,7 +39,7 @@ return function(colors)
 
       TelescopeResultsTitle = {
          fg = colors.darker_black,
-         bg = colors.darker_black,
+         bg = colors.blue,
       },
    }
 end
