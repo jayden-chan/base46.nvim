@@ -3,6 +3,7 @@ return {
     "bufferline",
     "cmp",
     "devicons",
+    "feline",
     "general",
     "git",
     "mail",
@@ -11,5 +12,4 @@ return {
     "syntax",
     "telescope",
     "treesitter",
-    "feline",
 }

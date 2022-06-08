@@ -16,6 +16,7 @@ return function(colors)
         NvimTreeOpenedFolderName = { fg = colors.folder_bg },
         NvimTreeGitIgnored = { fg = colors.light_grey },
         NvimTreeCursorLine = { bg = colors.black2 },
+        NvimTreeSpecialFile = { fg = colors.yellow, bold = true, underline = true },
 
         NvimTreeWinSeparator = {
             fg = colors.darker_black,
