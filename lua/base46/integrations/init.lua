@@ -8,6 +8,7 @@ return {
     "git",
     "mail",
     "misc",
+    "neogit",
     "nvimtree",
     "syntax",
     "telescope",
