@@ -6,6 +6,7 @@ return {
     "feline",
     "general",
     "git",
+    "gps",
     "mail",
     "misc",
     "neogit",
