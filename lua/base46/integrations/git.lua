@@ -1,7 +1,7 @@
 return function(colors)
     return {
         -- gitsigns.nvim
-        DiffAdd = { fg = colors.blue },
+        DiffAdd = { fg = colors.green },
         DiffAdded = { fg = colors.green },
         DiffChange = { fg = colors.light_grey },
         DiffChangeDelete = { fg = colors.red },

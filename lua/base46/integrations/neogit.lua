@@ -9,5 +9,6 @@ return function(colors)
         NeogitDiffContextHighlight = { bg = colors.black2, fg = colors.light_grey },
         NeogitHunkHeader = { fg = colors.greyfg2, bg= colors.black },
         NeogitHunkHeaderHighlight = { fg = colors.greyfg2, bg = colors.black2 },
+        NeogitCommitViewHeader = { bg = colors.one_bg3, fg = colors.white, bold = true }
     }
 end
