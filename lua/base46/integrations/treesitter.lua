@@ -42,6 +42,16 @@ return function(colors)
             sp = "none",
         },
 
+        TSKeywordFunction = {
+            fg = colors.base0E,
+            sp = "none",
+        },
+
+        TSKeywordReturn = {
+            fg = colors.base0E,
+            sp = "none",
+        },
+
         TSFuncBuiltin = {
             fg = colors.base0D,
             sp = "none",
@@ -151,6 +161,10 @@ return function(colors)
         TSVariableBuiltin = {
             fg = colors.base09,
             sp = "none",
+        },
+
+        TSVariable = {
+            fg = colors.base05,
         },
 
         TSDefinition = {

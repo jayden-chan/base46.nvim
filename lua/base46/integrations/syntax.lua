@@ -7,6 +7,7 @@ return function(colors)
         Delimiter = { fg = colors.base0F },
         Float = { fg = colors.base09 },
         Function = { fg = colors.base0D },
+        Variable = { fg = colors.base05 },
         Include = { fg = colors.base0D },
         Keyword = { fg = colors.base0E },
         Label = { fg = colors.base0A },
