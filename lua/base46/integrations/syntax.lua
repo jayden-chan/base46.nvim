@@ -22,6 +22,10 @@ return function(colors)
         Tag = { fg = colors.base0A },
         Typedef = { fg = colors.base0A },
 
+        TabLine = { bg = colors.black },
+        TabLineFill = { bg = colors.black },
+        TabLineSel = { bg = colors.one_bg3, fg = colors.blue, bold = true },
+
         Define = {
             fg = colors.base0E,
             sp = "none",
