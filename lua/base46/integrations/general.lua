@@ -14,9 +14,9 @@ return function(colors)
         NormalFloat = { bg = colors.darker_black },
 
         -- Pmenu i.e completion menu
-        Pmenu = { bg = colors.black },
-        PmenuSbar = { bg = colors.one_bg },
-        PmenuThumb = { bg = colors.grey },
+        Pmenu = { bg = colors.darker_black },
+        PmenuSbar = { bg = colors.black2 },
+        PmenuThumb = { bg = colors.darker_black },
         PmenuSel = {
             bg = colors.pmenu_bg,
             fg = colors.black,
