@@ -49,27 +49,14 @@ M.base_16 = {
     base0C = "#e69875",
     base0D = "#a7c080",
     base0E = "#e67e80",
-    base0F = "#e67e80",
+    base0F = "#d699b6",
 }
 
 M.type = "dark"
 
 M.polish_hl = {
-    TSPunctBracket = {
-        fg = M.base_30.red,
-    },
-
-    TSTag = {
-        fg = M.base_30.orange,
-    },
-
-    TSTagDelimiter = {
-        fg = M.base_30.green,
-    },
-
-    TSConstructor = {
-        fg = "#7fbbb3",
-    },
+    ["@tag"] = { fg = M.base_30.orange },
+    ["@tag.delimiter"] = { fg = M.base_30.green },
 }
 
 return M

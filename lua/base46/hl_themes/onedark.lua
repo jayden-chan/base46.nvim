@@ -7,7 +7,7 @@ M.base_30 = {
     black2 = "#252931",
     one_bg = "#282c34", -- real bg of onedark
     one_bg2 = "#353b45",
-    one_bg3 = "#30343c",
+    one_bg3 = "#373b43",
     grey = "#42464e",
     grey_fg = "#565c64",
     grey_fg2 = "#6f737b",
@@ -29,7 +29,7 @@ M.base_30 = {
     cyan = "#a3b8ef",
     statusline_bg = "#22262e",
     lightbg = "#2d3139",
-    pmenu_bg = "#98c379",
+    pmenu_bg = "#61afef",
     folder_bg = "#61afef",
 }
 
@@ -51,5 +51,7 @@ M.base_16 = {
     base0E = "#c678dd",
     base0F = "#be5046",
 }
+
+M.type = "dark"
 
 return M
