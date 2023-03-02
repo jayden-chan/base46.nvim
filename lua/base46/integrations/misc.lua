@@ -70,6 +70,21 @@ return function(colors)
             sp = "none",
         },
 
+        TabLine = {
+            bg = colors.darker_black,
+            fg = colors.light_grey,
+        },
+
+        TabLineFill = {
+            bg = colors.darker_black,
+            fg = colors.light_grey,
+        },
+
+        TabLineSel = {
+            bg = colors.black2,
+            fg = colors.white,
+        },
+
         Cursor = {
             fg = colors.base00,
             bg = colors.base05,
