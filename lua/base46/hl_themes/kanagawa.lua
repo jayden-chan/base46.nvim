@@ -1,7 +1,7 @@
 local M = {}
 
 M.base_30 = {
-    white = "#DCD7BA",
+    white = "#dcd7ba",
     darker_black = "#191922",
     black = "#1F1F28", --  nvim bg
     black2 = "#25252e",
@@ -10,23 +10,23 @@ M.base_30 = {
     one_bg3 = "#363646",
     grey = "#43434c",
     grey_fg = "#4c4c55",
-    grey_fg2 = "#53535c",
+    grey_fg2 = "#54546d",
     light_grey = "#5c5c65",
-    red = "#d8616b",
+    red = "#e46876",
     baby_pink = "#D27E99",
     pink = "#c8748f",
     line = "#31313a", -- for lines like vertsplit
     green = "#98BB6C",
     vibrant_green = "#a3c677",
-    nord_blue = "#7E9CD8",
+    nord_blue = "#9cabca",
     blue = "#7FB4CA",
-    yellow = "#FF9E3B",
-    sun = "#FFA066",
-    purple = "#a48ec7",
+    yellow = "#c0a36e",
+    sun = "#e6c384",
+    purple = "#957fb8",
     dark_purple = "#9c86bf",
     teal = "#7AA89F",
     orange = "#fa9b61",
-    cyan = "#A3D4D5",
+    cyan = "#7aa89f",
     statusline_bg = "#24242d",
     lightbg = "#33333c",
     pmenu_bg = "#a48ec7",
@@ -42,7 +42,7 @@ M.base_16 = {
     base05 = "#c8c3a6",
     base06 = "#d2cdb0",
     base07 = "#DCD7BA",
-    base08 = "#d8616b",
+    base08 = "#e46876",
     base09 = "#ffa066",
     base0A = "#dca561",
     base0B = "#98bb6c",
@@ -53,16 +53,28 @@ M.base_16 = {
 }
 
 M.polish_hl = {
-    TSInclude = {
+    ["@punctuation.bracket"] = {
+        fg = M.base_30.nord_blue,
+    },
+
+    ["@punctuation.delimiter"] = {
+        fg = M.base_30.yellow,
+    },
+
+    ["@function.call"] = {
+        fg = M.base_16.base0C,
+    },
+
+    ["@namespace"] = {
+        fg = M.base_30.sun,
+    },
+
+    ["@type"] = {
+        fg = M.base_30.cyan,
+    },
+
+    ["@include"] = {
         fg = M.base_30.purple,
-    },
-
-    TSURI = {
-        fg = M.base_30.blue,
-    },
-
-    TSTagDelimiter = {
-        fg = M.base_30.red,
     },
 }
 
