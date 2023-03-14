@@ -53,10 +53,10 @@ M.base_16 = {
 }
 
 M.polish_hl = {
-    TSInclude = {
+    ["@include"] = {
         fg = M.base_30.purple,
     },
-    TSFieldKey = {
+    ["@field.key"] = {
         fg = M.base_30.orange,
     },
 }

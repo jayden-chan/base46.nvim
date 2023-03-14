@@ -57,19 +57,19 @@ M.polish_hl = {
         fg = M.base_30.green,
     },
 
-    TSTag = {
+    ["@tag"] = {
         fg = M.base_30.orange,
     },
 
-    TSField = {
+    ["@field"] = {
         fg = M.base_16.base05,
     },
 
-    TSInclude = {
+    ["@include"] = {
         fg = M.base_16.base08,
     },
 
-    TSConstructor = {
+    ["@constructor"] = {
         fg = M.base_30.blue,
     },
 

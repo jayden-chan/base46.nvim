@@ -53,11 +53,11 @@ M.base_16 = {
 }
 
 M.polish_hl = {
-    TSPunctBracket = {
+    ["@punctuation.bracket"] = {
         fg = M.base_30.white,
     },
 
-    TSPunctDelimiter = {
+    ["@punctuation.delimiter"] = {
         fg = M.base_30.white,
     },
 }

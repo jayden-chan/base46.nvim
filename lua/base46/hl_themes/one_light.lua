@@ -72,7 +72,7 @@ M.polish_hl = {
         fg = M.base_30.white,
     },
 
-    TSPunctBracket = {
+    ["@punctuation.bracket"] = {
         fg = M.base_30.nord_blue,
     },
 

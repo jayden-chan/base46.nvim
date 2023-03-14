@@ -53,15 +53,15 @@ M.base_16 = {
 }
 
 M.polish_hl = {
-    TSParameter = {
+    ["@parameter"] = {
         fg = M.base_30.orange,
     },
 
-    TSKeywordReturn = {
+    ["@keyword.return"] = {
         fg = M.base_30.cyan,
     },
 
-    TSConditional = {
+    ["@conditional"] = {
         fg = M.base_30.cyan,
     },
 

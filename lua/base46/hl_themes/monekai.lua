@@ -53,10 +53,10 @@ M.base_16 = {
 }
 
 M.polish_hl = {
-    TSParameter = {
+    ["@parameter"] = {
         fg = M.base_30.blue,
     },
-    TSFieldKey = {
+    ["@field.key"] = {
         fg = M.base_30.red,
     },
 }

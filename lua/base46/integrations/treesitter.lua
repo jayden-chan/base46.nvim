@@ -86,7 +86,7 @@ return function(colors)
         },
 
         ["@punctuation.bracket"] = {
-            fg = colors.base0F,
+            fg = colors.base0A,
         },
 
         ["@punctuation.delimiter"] = {

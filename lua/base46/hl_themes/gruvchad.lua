@@ -52,4 +52,10 @@ M.base_16 = {
     base0F = "#ffaa52",
 }
 
+M.polish_hl = {
+    ["@punctuation.bracket"] = {
+        fg = M.base_16.base0F,
+    },
+}
+
 return M

@@ -53,10 +53,9 @@ M.base_16 = {
 }
 
 M.polish_hl = {
-    TSVariable = {
+    ["@variable"] = {
         fg = M.base_16.base05,
     },
-
 }
 
 return M

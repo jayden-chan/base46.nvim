@@ -53,12 +53,8 @@ M.base_16 = {
 }
 
 M.polish_hl = {
-    TSPunctBracket = {
+    ["@punctuation.bracket"] = {
         fg = M.base_16.base07,
-    },
-
-    TSParenthesis = {
-      link = "TSPunctBracket"
     },
 }
 

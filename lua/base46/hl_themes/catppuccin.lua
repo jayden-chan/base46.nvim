@@ -54,15 +54,15 @@ M.base_16 = {
 }
 
 M.polish_hl = {
-    TSVariable = {
+    ["@variable"] = {
         fg = M.base_30.lavender,
     },
 
-    TSProperty = {
+    ["@property"] = {
         fg = M.base_30.teal,
     },
 
-    TSVariableBuiltin = {
+    ["@variable.builtin"] = {
         fg = M.base_30.red,
     },
 }
