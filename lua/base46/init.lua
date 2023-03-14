@@ -42,6 +42,11 @@ function M.get_lualine_theme(base, theme_name)
     end
 
     local colors = M.get_colors(base, theme_name)
+    if colors == nil then
+        error("failed to get colors from theme")
+        return
+    end
+
     local default_b = { bg = colors.one_bg, fg = colors.white }
     local default_c = { bg = colors.black2, fg = colors.white }
     local lualine_theme = {
