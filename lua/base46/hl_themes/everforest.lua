@@ -1,7 +1,7 @@
 local M = {}
 
 M.base_30 = {
-    white = "#D3C6AA",
+    white = "#d3c6aa",
     darker_black = "#272f35",
     black = "#2b3339", --  nvim bg
     black2 = "#323a40",
@@ -57,6 +57,13 @@ M.type = "dark"
 M.polish_hl = {
     ["@tag"] = { fg = M.base_30.orange },
     ["@tag.delimiter"] = { fg = M.base_30.green },
+    ["@punctuation.bracket"] = { fg = M.base_30.sun },
+    ["@type"] = { fg = M.base_30.yellow },
+    ["@string"] = { fg = M.base_30.vibrant_green },
+    ["@function.call"] = { fg = M.base_30.cyan },
+    ["@field"] = { fg = M.base_30.red },
+    ["@character"] = { fg = M.base_30.purple },
+    ["@constant"] = { fg = M.base_30.purple },
 }
 
 return M
