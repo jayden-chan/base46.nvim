@@ -3,7 +3,6 @@ return function(colors)
         Comment = { fg = colors.grey_fg },
 
         -- line numbers
-        CursorLineNr = { fg = colors.white },
         LineNr = { fg = colors.grey },
 
         -- those ugly ~'s

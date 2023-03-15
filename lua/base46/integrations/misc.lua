@@ -111,7 +111,8 @@ return function(colors)
         },
 
         CursorLineNr = {
-            bg = colors.base00,
+            bg = colors.black2,
+            fg = colors.white,
             sp = "none",
         },
 
