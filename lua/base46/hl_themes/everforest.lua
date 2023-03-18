@@ -60,10 +60,14 @@ M.polish_hl = {
     ["@punctuation.bracket"] = { fg = M.base_30.sun },
     ["@type"] = { fg = M.base_30.yellow },
     ["@string"] = { fg = M.base_30.vibrant_green },
-    ["@function.call"] = { fg = M.base_30.cyan },
+    ["@function.call"] = { fg = M.base_16.base08 },
+    ["@function.builtin"] = { fg = M.base_16.base08 },
     ["@field"] = { fg = M.base_30.red },
-    ["@character"] = { fg = M.base_30.purple },
-    ["@constant"] = { fg = M.base_30.purple },
+    ["@property"] = { fg = M.base_30.red },
+    ["@character"] = { fg = M.base_30.dark_purple },
+    ["@constant"] = { fg = M.base_30.dark_purple },
+    ["@include"] = { fg = M.base_16.base08 },
+    ["@namespace"] = { fg = M.base_30.vibrant_green },
 }
 
 return M
