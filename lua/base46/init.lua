@@ -116,12 +116,18 @@ function M.load_theme(user_opts)
     require("base46.base46_term").set_hls(colors)
 
     -- get hls
-    local polish = M.get_polish(opts.theme)
-    local hls = require("base46.base46_hls").get_hls(colors, opts.transparency, polish)
+    local hls = require("base46.base46_hls").get_hls(colors, opts.transparency)
 
     -- actually highlight stuff
     for hl, col in pairs(hls) do
         vim.api.nvim_set_hl(0, hl, col)
+    end
+
+    local polish = M.get_polish(opts.theme)
+    if polish ~= nil then
+        for hl, col in pairs(polish) do
+            vim.api.nvim_set_hl(0, hl, col)
+        end
     end
 end
 

@@ -2,7 +2,7 @@ local merge_tbl = require("base46").merge_tbl
 
 local M = {}
 
-function M.get_hls(colors, transparent, polish)
+function M.get_hls(colors, transparent)
     local highlights = {}
     local integrations = require("base46.integrations")
 
@@ -13,10 +13,6 @@ function M.get_hls(colors, transparent, polish)
     for _, integration_module in ipairs(integrations) do
         local hls = require("base46.integrations." .. integration_module)(colors)
         highlights = merge_tbl(highlights, hls)
-    end
-
-    if polish ~= nil then
-        highlights = merge_tbl(highlights, polish)
     end
 
     return highlights
