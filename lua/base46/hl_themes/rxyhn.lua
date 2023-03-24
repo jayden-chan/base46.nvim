@@ -1,3 +1,6 @@
+-- credits to rice made by https://github.com/rxyhn
+-- This theme is made for @rxyhn's rice :D
+
 local M = {}
 
 M.base_30 = {
@@ -51,5 +54,7 @@ M.base_16 = {
     base0E = "#C488EC",
     base0F = "#F16269",
 }
+
+M.type = "dark"
 
 return M
