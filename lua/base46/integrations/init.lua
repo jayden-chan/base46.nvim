@@ -10,6 +10,7 @@ return {
     "mail",
     "misc",
     "neogit",
+    "neotree",
     "nvimtree",
     "syntax",
     "telescope",
