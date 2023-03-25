@@ -1,6 +1,6 @@
 return function(colors)
     return {
-        Comment = { fg = colors.grey_fg },
+        Comment = { fg = colors.grey_fg, italic = true },
 
         -- line numbers
         LineNr = { fg = colors.grey },
