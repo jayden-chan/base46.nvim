@@ -4,5 +4,7 @@ return function(colors)
         NeoTreeGitModified = { fg = colors.blue },
         NeoTreeGitUntracked = { fg = colors.green, italic = true },
         NeoTreeGitConflict = { fg = colors.red, bold = true, italic = true },
+        NeoTreeNormal = { bg = colors.darker_black },
+        NeoTreeWinSeparator = { fg = colors.black },
     }
 end
