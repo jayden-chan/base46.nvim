@@ -7,6 +7,7 @@ return {
     "general",
     "git",
     "gps",
+    "lsp",
     "mail",
     "misc",
     "neogit",

@@ -187,6 +187,10 @@ return function(colors)
             fg = colors.base08,
         },
 
+        ["@type"] = {
+            fg = colors.base0B,
+        },
+
         ["@include"] = {
             link = "Include",
         },
