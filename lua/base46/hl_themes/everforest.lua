@@ -65,8 +65,6 @@ M.polish_hl = {
     ["@function.builtin"] = { fg = M.base_16.base08 },
     ["@field"] = { fg = M.base_30.red },
     ["@property"] = { fg = M.base_30.red },
-    ["@lsp.typemod.property.declaration"] = { fg = M.base_16.base0D },
-    ["@lsp.typemod.property.declaration.typescriptreact"] = { fg = M.base_30.red },
     ["@character"] = { fg = M.base_30.dark_purple },
     ["@constant"] = { fg = M.base_30.dark_purple },
     ["@include"] = { fg = M.base_16.base08 },
