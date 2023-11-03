@@ -8,6 +8,13 @@ function M.get_hls(colors, transparent)
 
     if transparent then
         table.insert(integrations, "glassy")
+    else
+        local integrations_copy = integrations
+        for i, integration in ipairs(integrations_copy) do
+            if integration == "glassy" then
+                table.remove(integrations, i)
+            end
+        end
     end
 
     for _, integration_module in ipairs(integrations) do
