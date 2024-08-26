@@ -71,6 +71,11 @@ M.polish_hl = {
     ["@constant"] = { fg = M.base_30.dark_purple },
     ["@include"] = { fg = M.base_16.base08 },
     ["@namespace"] = { fg = M.base_30.vibrant_green },
+    ["@type.builtin.sql"] = { fg = M.base_30.dark_purple },
+    ["@variable.member.sql"] = { fg = M.base_30.cyan },
+    ["@variable.parameter.sql"] = { fg = M.base_30.orange },
+    ["@variable.sql"] = { fg = M.base_30.vibrant_green },
+    ["@punctuation.bracket.sql"] = { fg = M.base_30.white },
 }
 
 return M
