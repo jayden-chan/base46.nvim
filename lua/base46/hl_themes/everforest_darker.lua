@@ -35,12 +35,11 @@ M.base_30 = {
 }
 
 M.base_16 = {
-    -- base00 = "#2b3339",
     base00 = "#202022",
-    base01 = "#323c41",
-    base02 = "#3c444a",
-    base03 = "#424a50",
-    base04 = "#4a5258",
+    base01 = "#2d2d30",
+    base02 = "#3a3a3e",
+    base03 = "#48484d",
+    base04 = "#57575c",
     base05 = "#d3c7bb",
     base06 = "#ddd0b4",
     base07 = "#e7dabe",
@@ -76,6 +75,14 @@ M.polish_hl = {
     ["@variable.parameter.sql"] = { fg = M.base_30.orange },
     ["@variable.sql"] = { fg = M.base_30.vibrant_green },
     ["@punctuation.bracket.sql"] = { fg = M.base_30.white },
+    ["@lsp.type.property.nix"] = { fg = M.base_30.white },
+    ["@lsp.mod.definition.nix"] = { fg = M.base_30.white },
+    ["@lsp.typemod.variable.definition.nix"] = { fg = M.base_30.yellow },
+    ["@lsp.typemod.parameter.definition.nix"] = { fg = M.base_30.yellow },
+    ["@lsp.typemod.property.definition.nix"] = { fg = M.base_16.base08 },
+    ["@lsp.type.parameter.nix"] = { fg = M.base_30.yellow },
+    ["@lsp.mod.builtin.nix"] = { fg = M.base_30.red },
+    ["@variable.member.nix"] = { fg = M.base_16.base08 },
 }
 
 return M
